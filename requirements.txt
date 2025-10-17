@@ -1,0 +1,15 @@
+langgraph
+langchain
+langchain-openai
+dotenv
+flask
+streamlit
+langchain-community
+fitz
+PyMuPDF==1.22.5
+
+#
+unstructured 
+pdfminer.six 
+pytesseract 
+pillow
