@@ -2,6 +2,9 @@ import streamlit as st
 from tools_backend import chatbot, retrieve_all_threads  # ✅ your integrated backend file
 from langchain_core.messages import HumanMessage, AIMessage, ToolMessage
 import uuid
+import os 
+
+os.environ['LANGCHAIN_PROJECT']='Tools-Chatbot'
 
 # =========================== Utilities ===========================
 def generate_thread_id() -> str:

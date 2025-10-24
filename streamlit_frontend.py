@@ -1,7 +1,9 @@
 import streamlit as st
 from langgraph_backend_initial import chatbot
 from langchain_core.messages import HumanMessage
+import os 
 
+os.environ['LANGCHAIN_PROJECT']='Basic-Chatbot'
 # st.session_state -> dict -> 
 CONFIG = {'configurable': {'thread_id': 'thread-1'}}
 

@@ -2,6 +2,9 @@ import streamlit as st
 from langgraph_database import chatbot, retrieve_all_threads
 from langchain_core.messages import HumanMessage
 import uuid
+import os 
+
+os.environ['LANGCHAIN_PROJECT']='Database-Chatbot'
 
 # **************************************** utility functions *************************
 

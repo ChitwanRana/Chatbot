@@ -2,6 +2,9 @@ import streamlit as st
 from langgraph_backend_initial import chatbot
 from langchain_core.messages import HumanMessage, AIMessage
 import uuid
+import os 
+
+os.environ['LANGCHAIN_PROJECT']='Threading-Chatbot'
 
 # **************************************** utility functions *************************
 
