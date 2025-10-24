@@ -1,4 +1,5 @@
 myenv/
 .env
 vectorstore/
+chatbot.db
 __pycache__/

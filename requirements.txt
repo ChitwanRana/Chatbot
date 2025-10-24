@@ -11,3 +11,4 @@ pytesseract
 pillow
 unstructured
 pdfminer.six
+ langgraph-checkpoint-sqlite
